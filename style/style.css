@@ -40,7 +40,8 @@ li a:hover {
 }
 
 .web-header {
-    background-image: url(img/header.jpg);
+    background-image: url(img/Header.PNG);
+    /* Picture Credit (Attribute) = Created by freepik.com */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -104,7 +105,8 @@ li a:hover {
 }
 
 .section1 {
-    background-image: url(img/section1.jpg);
+    background-image: url(img/Section1.PNG);
+    /* Picture Credit = Created by Baim Hanif from Unsplash.com */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -117,7 +119,8 @@ li a:hover {
 }
 
 .section2 {
-    background-image: url(img/section2.jpg);
+    background-image: url(img/Section2.PNG);
+    /* Picture Credit = Created by Christina @ wocintechchat.com from Unsplash.com */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -126,7 +129,8 @@ li a:hover {
 }
 
 .section3 {
-    background-image: url(img/section3.jpg);
+    background-image: url(img/Section3.PNG);
+    /* Picture Credit = Created by Scott Graham from Unsplash.com */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
