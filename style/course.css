@@ -94,15 +94,37 @@ li a:hover {
     background-position: center;
     border-radius: 10px;
     margin-bottom: 50px;
+    width: 270px;
 }
 
-.row a:hover {
-    text-decoration: none;
+.course-container {
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.459);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 0 10px;
+    border-radius: 10px;
 }
 
-.row a:hover .course {
+.row button:hover .course {
     box-shadow: 5px 10px 8px #888888;
     transform: scale(1.1);
+}
+
+.row button, .row button:focus {
+    border: none;
+    outline: none;
+}
+
+.modal-body p a {
+    color: black;
+}
+
+.modal-body p a:hover {
+    text-decoration: underline;
 }
 
 .ekonomika {
@@ -147,19 +169,6 @@ li a:hover {
 
 .teknik {
     background-image: url(img/teknik.jpg);
-}
-
-.course-container {
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.459);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    padding: 0 10px;
-    border-radius: 10px;
 }
 
 .course p {
