@@ -13,7 +13,7 @@ Features :
 
 Menu / Layout :
 
-Navigation Bar
+- Navigation Bar
 - Home
 - Course
 - About Us
