@@ -1,7 +1,6 @@
 new fullpage('#fullpage', {
     autoScrolling: true,
     navigation: true,
-    continuousVertical: true,
 })
 
 if (screen && screen.width > 991) {
