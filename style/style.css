@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:500,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sahitya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
 
 body,
 html {
@@ -191,4 +192,39 @@ li a:hover {
 
 #fp-nav ul li a {
     margin-top: 10px;
+}
+
+#footer {
+    height: auto;
+    padding: 20px;
+    background-color: #555555;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon a {
+    color: #212529;
+}
+
+.icon a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.icon a:hover .white {
+    text-decoration: none;
+    color: #212529;
+}
+
+.icon .white {
+    color: white;
+}
+
+#footer p {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-top: 13px;
+    font-weight: bold;
 }
