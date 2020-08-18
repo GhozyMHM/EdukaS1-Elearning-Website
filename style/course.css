@@ -42,6 +42,11 @@ li a:hover {
     border-radius: 10px;
 }
 
+nav button.navbar-toggler:focus,
+nav button.navbar-toggler:active {
+    outline: none !important;
+}
+
 .web-header {
     background-image: url(img/Course.PNG);
     /* Picture Credit = Created by Andrew Neel from Unsplash.com */
@@ -116,7 +121,8 @@ li a:hover {
     transform: scale(1.1);
 }
 
-.row button, .row button:focus {
+.row button,
+.row button:focus {
     border: none;
     outline: none;
 }
@@ -198,7 +204,7 @@ li a:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
-}   
+}
 
 .icon {
     text-align: center;
@@ -229,4 +235,73 @@ li a:hover {
     margin-top: 13px;
     font-weight: bold;
     text-align: center;
+}
+
+@media (max-width: 991px) {
+
+    #web-navbar {
+        background-color: rgba(0, 0, 0, 0.788);
+    }
+
+    li.active a,
+    li a:hover {
+        background-color: transparent !important;
+        color: rgb(97, 183, 240) !important;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .header-container {
+        padding: 0 5px;
+    }
+
+    .header-content a {
+        padding: 8px 30px;
+        font-size: 18px;
+    }
+
+    .web-header h1 {
+        font-size: 60px;
+    }
+
+    .web-header h3 {
+        font-size: 20px;
+    }
+
+    .web-header p {
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 25px;
+        max-width: 250px;
+    }
+
+    #fp-nav ul li a.active span {
+        width: 20px !important;
+        height: 20px !important;
+        margin: -13px 0 0 -13px !important;
+    }
+
+    #fp-nav ul li a span {
+        width: 9px !important;
+        height: 9px !important;
+        margin: -6px 0 0 -7px !important;
+    }
+
+    #fp-nav ul li a {
+        margin-top: 10px;
+    }
+
+    .section1,
+    .section-container {
+        padding: 0 25px;
+    }
+
+    .section1 h1,
+    .section2 h1,
+    .section3 h1 {
+        font-size: 35px;
+        max-width: 300px;
+    }
 }
