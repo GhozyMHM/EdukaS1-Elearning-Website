@@ -87,7 +87,7 @@ nav button.navbar-toggler:active {
 
 .main-container h1 {
     text-align: center;
-    color: #000c2e;
+    color: #555555;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -136,57 +136,57 @@ nav button.navbar-toggler:active {
 }
 
 .ekonomika {
-    background-image: url(img/ekonomika.png);
+    background-image: url(img/Ekonomika.PNG);
     /* Picture Credit = Created by Robert Anasch from Unsplash.com */
 }
 
 .hukum {
-    background-image: url(img/hukum.png);
+    background-image: url(img/Hukum.PNG);
     /* Picture Credit = Created by Tingey Injury Law Firm from Unsplash.com */
 }
 
 .budaya {
-    background-image: url(img/ilmubudaya.png);
+    background-image: url(img/Ilmubudaya.PNG);
     /* Picture Credit = Created by Pavan Gupta from Unsplash.com */
 }
 
 .sosial {
-    background-image: url(img/ilmusosialpolitik.png);
+    background-image: url(img/Ilmusosialpolitik.PNG);
     /* Picture Credit = Created by Marco Oriolesi from Unsplash.com */
 }
 
 .dokter {
-    background-image: url(img/kedokteran.png);
+    background-image: url(img/Kedokteran.PNG);
     /* Picture Credit = Created by Javier Matheu from Unsplash.com */
 }
 
 .kesmas {
-    background-image: url(img/kesmas.png);
+    background-image: url(img/Kesmas.PNG);
     /* Picture Credit = Created by Dan Gold from Unsplash.com */
 }
 
 .ikan {
-    background-image: url(img/perikanan.png);
+    background-image: url(img/Perikanan.PNG);
     /* Picture Credit = Created by Uber Scuba Gili from Unsplash.com */
 }
 
 .ternak {
-    background-image: url(img/peternakan.png);
+    background-image: url(img/Peternakan.PNG);
     /* Picture Credit = Created by Stijn te Strake from Unsplash.com */
 }
 
 .psikologi {
-    background-image: url(img/psikologi.png);
+    background-image: url(img/Psikologi.PNG);
     /* Picture Credit = Created by Sydney Sims from Unsplash.com */
 }
 
 .sains {
-    background-image: url(img/sains.png);
+    background-image: url(img/Sains.PNG);
     /* Picture Credit = Created by Dawid Małecki from Unsplash.com */
 }
 
 .teknik {
-    background-image: url(img/teknik.png);
+    background-image: url(img/Teknik.PNG);
     /* Picture Credit = Created by Bill Oxford from Unsplash.com */
 }
 
