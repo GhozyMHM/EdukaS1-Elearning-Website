@@ -117,6 +117,7 @@ nav button.navbar-toggler:active {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .free,
@@ -127,7 +128,7 @@ nav button.navbar-toggler:active {
     padding: 30px;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 400px;
     height: 300px;
     background-color: #555555;
     border-radius: 10px;
@@ -228,59 +229,50 @@ nav button.navbar-toggler:active {
         color: rgb(97, 183, 240) !important;
         border-radius: 0;
     }
+
 }
 
 @media (max-width: 700px) {
 
     .header-container {
         padding: 0 5px;
+        height: 70vh;
     }
 
-    .header-content a {
-        padding: 8px 30px;
-        font-size: 18px;
+    .web-header {
+        height: 70vh;
     }
 
     .web-header h1 {
         font-size: 60px;
     }
 
-    .web-header h3 {
-        font-size: 20px;
+    .first-sec,
+    .second-sec,
+    .third-sec {
+        padding: 70px 35px
     }
 
-    .web-header p {
-        font-size: 20px;
-        margin-top: 0;
-        margin-bottom: 25px;
-        max-width: 250px;
+    .first-sec h1,
+    .second-sec h1,
+    .third-sec h1 {
+        font-size: 30px;
+        margin-bottom: 50px;
     }
 
-    #fp-nav ul li a.active span {
-        width: 20px !important;
-        height: 20px !important;
-        margin: -13px 0 0 -13px !important;
+    .second-sec p {
+        font-size: 30px;
     }
 
-    #fp-nav ul li a span {
-        width: 9px !important;
-        height: 9px !important;
-        margin: -6px 0 0 -7px !important;
+    .second-sec li {
+        font-size: 14px;
     }
 
-    #fp-nav ul li a {
-        margin-top: 10px;
+    .third-sec ol {
+        padding: 0 20px;
     }
 
-    .section1,
-    .section-container {
-        padding: 0 25px;
-    }
-
-    .section1 h1,
-    .section2 h1,
-    .section3 h1 {
-        font-size: 35px;
-        max-width: 300px;
+    .third-sec a {
+        font-size: 15px;
     }
 }
