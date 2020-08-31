@@ -120,16 +120,13 @@ nav button.navbar-toggler:active {
     flex-wrap: wrap;
 }
 
-.free,
-.paid {
+.video {
     display: flex;
-    flex-direction: column;
     margin: 20px;
     padding: 30px;
     justify-content: center;
     align-items: center;
     width: 400px;
-    height: 300px;
     background-color: #555555;
     border-radius: 10px;
     border: 2px solid white;
@@ -142,13 +139,6 @@ nav button.navbar-toggler:active {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 80px;
-}
-
-.second-sec li {
-    color: rgb(236, 236, 236);
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
 }
 
 .second-sec p {
