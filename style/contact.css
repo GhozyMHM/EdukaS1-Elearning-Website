@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sahitya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#web-navbar {
+    background-color: transparent;
+    padding: 0 50px;
+}
+
+nav img {
+    width: 120px;
+}
+
+nav ul li a {
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    color: white !important;
+    margin-right: 15px;
+}
+
+li.active a,
+li a:hover {
+    background-color: white !important;
+    color: navy !important;
+    border-radius: 10px;
+}
+
+nav button.navbar-toggler:focus,
+nav button.navbar-toggler:active {
+    outline: none !important;
+}
+
+.web-header {
+    background-image: url(img/Contact.PNG);
+    /* Picture Credit = Created by Adam Solomon  from Unsplash.com */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.header-container {
+    z-index: 1;
+    background-color: rgba(15, 17, 27, 0.753);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 250px;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.web-header h1 {
+    font-family: 'Roboto', sans-serif;
+    color: White;
+    font-size: 130px;
+    font-weight: bold;
+}
+
+.main-container {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.main-container h1 {
+    text-align: center;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form {
+    flex: 1;
+}
+
+.side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+i.side-icon {
+    font-size: 30px;
+    margin: 10px 0;
+    color: #555555;
+}
+
+.side p {
+    display: inline;
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+}
+
+form label {
+    display: block;
+    width: fit-content;
+    margin-top: 15px;
+}
+
+form input,
+form textarea {
+    padding: 2px 10px;
+    width: 100%;
+}
+
+form textarea {
+    height: 100px;
+    resize: none;
+}
+
+form button {
+    background-color: #555555;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+form button:hover {
+    background-color: white;
+    color: #555555;
+    border: 2px solid #000c2e;
+    text-decoration: none;
+}
+
+#footer {
+    height: auto;
+    padding: 20px;
+    background-color: #555555;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon a {
+    color: #212529;
+}
+
+.icon a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.icon a:hover .white {
+    text-decoration: none;
+    color: #212529;
+}
+
+.icon .white {
+    color: white;
+}
+
+#footer p {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-top: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+
+    #web-navbar {
+        background-color: rgba(0, 0, 0, 0.788);
+    }
+
+    li.active a,
+    li a:hover {
+        background-color: transparent !important;
+        color: rgb(97, 183, 240) !important;
+        border-radius: 0;
+    }
+
+    i.side-icon {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .header-container {
+        padding: 0 5px;
+    }
+
+    .header-content a {
+        padding: 8px 30px;
+        font-size: 18px;
+    }
+
+    .web-header h1 {
+        font-size: 60px;
+    }
+
+    .web-header h3 {
+        font-size: 20px;
+    }
+
+    .web-header p {
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 25px;
+        max-width: 250px;
+    }
+
+    .side {
+        padding-top: 30px;
+    }
+
+    i.side-icon {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+}
