@@ -1,0 +1,167 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+#web-navbar {
+    background-color: #555555;
+    padding: 0 50px;
+}
+
+nav img {
+    width: 120px;
+}
+
+nav ul li a {
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    color: white !important;
+    margin-right: 15px;
+}
+
+li.active a,
+li a:hover {
+    background-color: white !important;
+    color: navy !important;
+    border-radius: 10px;
+}
+
+nav button.navbar-toggler:focus,
+nav button.navbar-toggler:active {
+    outline: none !important;
+}
+
+
+main{
+    margin: 60px;
+}
+
+
+
+
+
+.container1{
+ 
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    max-width: 100%;
+    height: 40px auto; 
+    padding: 5vh 25vh 5vh 25vh;
+
+}
+.judul h1{
+    font-weight: bold;
+    font-size: 28px;
+    text-align: left;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+
+}
+.judul p{
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 16px;
+   
+    padding: 5px;
+    margin-top: 10px;
+    
+
+}
+.course{
+
+}
+.list{
+    display: inline-block;
+    height: 50vh;
+    padding: 5px;
+
+    width: 100%;
+
+    
+}
+.list a li{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 15px;
+ 
+    height: 50px;
+    padding: 10px;
+    margin-right: 3px;
+    color: black;
+    box-shadow: 0px 0px 5px 1px ;
+}
+
+.list a li:hover{
+    box-shadow: none;
+    background-color: #ebebeb;
+    transition: .4s;
+    text-decoration: none;
+}
+
+#footer {
+    height: auto;
+    padding: 20px;
+    background-color: #555555;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon a {
+    color: #212529;
+}
+
+.icon a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.icon a:hover .white {
+    text-decoration: none;
+    color: #212529;
+}
+
+.icon .white {
+    color: white;
+}
+
+#footer p {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-top: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 1132px) {
+ 
+    .container1{
+         padding: 5vh 2vh 5vh 2vh;
+         transition: .4s all;
+    }
+}
+@media screen and (max-width: 687px){
+    .container1{
+         padding: 5vh 2vh 5vh 2vh;
+         transition: .4s all;
+    }
+}
+@media screen and (max-width: 418px){
+    .fa-clock{
+         display: none;
+    }
+}

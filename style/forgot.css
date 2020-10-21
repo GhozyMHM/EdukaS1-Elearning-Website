@@ -1,0 +1,80 @@
+body{
+	background-image: url(style/img/signup.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.fogo{
+	background-color: white ;
+	position: absolute;
+	width: 30%;
+	max-height: 100%;
+	left: 530px;
+	top: 120px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	box-shadow: 0px 0px 4px 1px;
+}
+#ceks{
+	position: absolute;
+	z-index: -1111;
+	visibility: hidden;
+}
+.fas{
+	padding-left: 15px;
+	padding-top:15px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.fas:hover{
+	
+	color: blue;
+	transition: .4s;
+}
+h4{
+	text-align: center;
+	width: 80%;
+	margin-left: 40px;
+	padding: 5px 0px 5px 0px;
+}
+.form-group{
+	padding-left:  20px;
+	max-width: 90%;
+}
+.btn{
+	margin-left: 40px;
+	margin-bottom: 20px;
+	width: 80%;
+	border-radius: 30px;
+}
+.form-control{
+	width: 100%;
+}
+a .btn{
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+}
+
+/*Alert*/
+.alert{
+	background-color: white ;
+	position: absolute;
+	width: 30%;
+	max-height: 100%;
+	left: 530px;
+	top: 120px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	box-shadow: 0px 0px 4px 1px;
+}
+.mb-0{
+	text-align: center;
+}
+.mb-0 a{
+	text-decoration: none;
+	color: green;
+}
+.mb-0 a:hover{
+	color: red;
+}
