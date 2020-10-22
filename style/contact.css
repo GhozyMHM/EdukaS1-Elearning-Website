@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:500,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sahitya&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 body,
 html {
@@ -48,8 +48,8 @@ nav button.navbar-toggler:active {
 }
 
 .web-header {
-    background-image: url(img/About.PNG);
-    /* Picture Credit = Created by Jesus Kiteque from Unsplash.com */
+    background-image: url(img/Contact.PNG);
+    /* Picture Credit = Created by Adam Solomon  from Unsplash.com */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -59,7 +59,7 @@ nav button.navbar-toggler:active {
 
 .header-container {
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.582);
+    background-color: rgba(15, 17, 27, 0.753);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,75 +81,67 @@ nav button.navbar-toggler:active {
     background-color: rgb(236, 236, 236);
     width: 100%;
     height: auto;
-    padding-bottom: 50px;
     overflow: hidden;
+    padding: 50px;
 }
 
-.first-sec,
-.second-sec,
-.third-sec {
-    padding: 70px 100px
-}
-
-.first-sec h1,
-.third-sec h1 {
+.main-container h1 {
     text-align: center;
     color: #555555;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
-.first-sec p,
-.third-sec li {
-    color: #555555;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.second-sec {
-    background-color: #55555593;
-}
-
-.second-sec-content {
+.layout {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
 }
 
-.video {
+.form {
+    flex: 1;
+}
+
+.side {
+    flex: 1;
     display: flex;
-    margin: 20px;
-    padding: 30px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
+}
+
+i.side-icon {
+    font-size: 30px;
+    margin: 10px 0;
+    color: #555555;
+}
+
+.side p {
+    display: inline;
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+}
+
+form label {
+    display: block;
+    width: fit-content;
+    margin-top: 15px;
+}
+
+form input,
+form textarea {
+    padding: 2px 10px;
+    width: 100%;
+}
+
+form textarea {
+    height: 100px;
+    resize: none;
+}
+
+form button {
     background-color: #555555;
-    border-radius: 10px;
-    border: 2px solid white;
-}
-
-.second-sec h1 {
-    text-align: center;
-    color: rgb(236, 236, 236);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 80px;
-}
-
-.second-sec p {
-    color: rgb(236, 236, 236);
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-}
-
-.third-sec a {
-    background-color: #000c2e;
     color: white;
     border: 2px solid white;
     border-radius: 5px;
@@ -160,9 +152,9 @@ nav button.navbar-toggler:active {
     margin: 10px 0;
 }
 
-.third-sec a:hover {
+form button:hover {
     background-color: white;
-    color: #000c2e;
+    color: #555555;
     border: 2px solid #000c2e;
     text-decoration: none;
 }
@@ -220,49 +212,44 @@ nav button.navbar-toggler:active {
         border-radius: 0;
     }
 
+    i.side-icon {
+        font-size: 20px;
+        margin: 10px 0;
+    }
 }
 
 @media (max-width: 700px) {
 
     .header-container {
         padding: 0 5px;
-        height: 70vh;
     }
 
-    .web-header {
-        height: 70vh;
+    .header-content a {
+        padding: 8px 30px;
+        font-size: 18px;
     }
 
     .web-header h1 {
         font-size: 60px;
     }
 
-    .first-sec,
-    .second-sec,
-    .third-sec {
-        padding: 70px 35px
+    .web-header h3 {
+        font-size: 20px;
     }
 
-    .first-sec h1,
-    .second-sec h1,
-    .third-sec h1 {
-        font-size: 30px;
-        margin-bottom: 50px;
+    .web-header p {
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 25px;
+        max-width: 250px;
     }
 
-    .second-sec p {
-        font-size: 30px;
+    .side {
+        padding-top: 30px;
     }
 
-    .second-sec li {
-        font-size: 14px;
-    }
-
-    .third-sec ol {
-        padding: 0 20px;
-    }
-
-    .third-sec a {
+    i.side-icon {
         font-size: 15px;
+        margin: 10px 0;
     }
 }
