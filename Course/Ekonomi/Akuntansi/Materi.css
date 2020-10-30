@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 body {
     max-width: 100%;
     width: auto;
@@ -78,6 +80,11 @@ li a:hover {
     letter-spacing: 3px;
 }
 
+h1.course-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
 
 .sampul {
     background-image: url();
