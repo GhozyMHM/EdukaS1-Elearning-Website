@@ -1,0 +1,188 @@
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EdukaS1 - Video Upload</title>
+
+</head>
+<body>
+	<h1>Upload Video</h1>
+	<form enctype="multipart/form-data" method="post"">
+	        <input type="file" name="file_video" />
+	        <input type="submit" name="upload" value="Upload" />
+	</form>
+</body>
+
+
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>EdukaS1</title>
+    <link rel="stylesheet" href="style/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/Bootstrap/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css"
+        integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/videoUpload.css">
+    <script type="text/javascript" src="js/Chart.js"></script>
+</head>
+
+<body>
+    <nav id="web-navbar" class="navbar navbar-expand-lg navbar-dark fixed-top py-2">
+        <a class="navbar-brand" href="index.html"><img src="style/img/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="course.html">Course</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="help.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<div class="Section-container">
+        <section class="sections upload" >
+        	<div class="upload-cont" >
+        		<h3 style="text-align: center;">Upload Here!</h3>
+        		<form>
+        			<label for="file" style="margin-left: 20px;">Letakan File Disini!</label><br>
+        			<input class="dropFileVideo" class="" type="file" name="files"><br>
+        			<input type="submit" value="Posting" style="visibility: hidden;">
+
+        		</form>
+        	</div>
+        	<div class="formUpload-cont">
+        		<form class="form-Upload">
+        			<h3>Data Video</h3>
+        			<input type="text" name="nama" placeholder="Nama Tutors" required class="formUpload"><br>
+        			<input type="text" name="jdl_video" placeholder="Judul Video" required class="formUpload"><br>
+        			<input class="formUpload" type="text" name="mt_kuliah" placeholder="Mata Kuliah"><br>
+        			<input class="formUpload" type="text" name="Part" placeholder="Part"><br>
+        			<button class="submit" name="submit" type="submit">Upload</button>
+        		</form>
+        	</div>
+        </section>
+
+        <section class="sections statistik">
+        	<div class="title-card" style="margin-left: 20px;">
+        		<h3 class="title">Statistik</h3>
+        	</div>
+        	<div class="contain cards">
+	        	<div class="card">
+	        		<h4 id="title-cards">Total Video</h4>
+	        		<h5 id="describ-card">10 Video</h5>
+	        	</div>
+	        	<div class="card" >
+	        		<h4 id="title-cards">Pengunjung</h4>
+	        		<h5 id="describ-card">50 Person</h5>
+	        	</div>
+	        	<div class="card">
+	        		<h4 id="title-cards">Pelanggan</h4>
+	        		<h5 id="describ-card">30 Account</h5>
+	        	</div>
+	        	<div class="card">
+	        		<h4 id="title-cards">Total Like</h4>
+	        		<h5 id="describ-card">60 Account</h5>
+	        	</div>
+	        	<div class="card">
+	        		<h4 id="title-cards">Total DisLike</h4>
+	        		<h5 id="describ-card">5 Account</h5>
+	        	</div>
+        	</div>
+        	<div class="contain">
+        		<div class="graph 1" style="flex: 1; margin-left: 5px;">
+	        		<div class="Title-graph">
+	        			<h3 class="title">Diagram Alir</h3>
+	        		</div>
+	        		<div class="graph-diagram">
+	        			<div class="cont">
+	       					<div class="bar-diagrams">
+								<canvas id="myChart"></canvas>
+							</div>
+							<script type="text/javascript" src="js/diagramsBar.js"></script>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="graph 2" style="flex: 1">
+        			<div class="Profile Monitoring">
+        				<div class="title">
+        					<h3 class="title">Profile Monitoring</h3>
+        				</div>
+        				<div class="diagram">
+        					<div class="pie-diagrams">
+								<canvas id="ChartPie"></canvas>
+							</div>
+							<script type="text/javascript" src="js/diagramsBar.js"></script>
+        				</div>
+        			</div>
+        		</div>
+        		
+        	</div>
+        	
+   
+    </div>
+
+    <footer id="footer">
+        <div class="icon">
+            <a target="_blank" href="mailto: edukas1.startup@gmail.com">
+                <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x white"></i>
+                </span>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/edukas1/">
+                <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x white"></i>
+                </span>
+            </a>
+            <a target="_blank" href="https://twitter.com/S1Eduka">
+                <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x white"></i>
+                </span>
+            </a>
+        </div>
+        <p>EdukaS1 &copy; 2020. All rights reserved.</p>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"
+        integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw=="
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/9fb210ee5d.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+
