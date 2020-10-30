@@ -1,0 +1,166 @@
+body{
+	height: 100%;
+	width: 100%;
+	background-image: url(img/book.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#web-navbar {
+    background-color: transparent;
+    padding: 0 50px;
+}
+
+nav img {
+    width: 120px;
+}
+
+nav ul li a {
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    color: white !important;
+    margin-right: 15px;
+}
+
+li.active a,
+li a:hover {
+    background-color: white !important;
+    color: navy !important;
+    border-radius: 10px;
+}
+
+nav button.navbar-toggler:focus,
+nav button.navbar-toggler:active {
+    outline: none !important;
+}
+
+.login-pg{
+	display: flex;
+	justify-content: center;
+	background-color: transparent;
+	max-width: 100%;
+	min-height: 100%;
+	
+}
+
+.pic{
+
+	background-size: cover;
+	background-position: center;
+	
+}
+.he{
+	height: 90px;
+	width: 110px;
+	margin-left: 100px;
+	padding: 0px;
+}
+.log{
+	height: 150px;
+	width: 170px;
+
+}
+.gambar{
+	flex-grow: 1;
+	max-height: 50%;
+	max-width: 30%;
+	margin-right: 80px;
+	float: left;
+	margin-top: 20vh;
+}
+.gambar-e{
+	padding-top: 100px;
+	text-align: center;
+}
+.gambar-e p{
+	line-height: 20px;
+	letter-spacing: 2px;
+	margin: 10px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	color: #faf8f8;
+}
+.kontainer {
+	flex-grow: 1;
+	max-height: 50%;
+	max-width: 30%;
+	margin-left: 100px;
+	box-sizing: border-box;
+	float: right;
+	background-color: #f3f6f6;
+	margin-top: 20vh;
+	margin-bottom: 5vh;
+	border-radius: 20px;
+}
+.log-form{
+	margin: 20px;
+}
+form{
+	padding: 15px;
+}
+.dropdown-item{
+	font-weight: bold !important;
+}
+.dropdown-item:hover{
+	background-color: #e8e8e8 !important; 
+	font-weight: normal !important;
+	border-radius: 20px;
+	width: 40vh !important;
+	transition: .5s;
+}
+.form-control{
+	width: 90%;
+}
+
+@media screen and (max-width: 991px ){
+	.kontainer {
+		max-width: 35%;
+		transition: .3s;
+	}
+}
+
+#footer {
+    height: auto;
+    padding: 20px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+   
+}
+
+
+
+.icon {
+    text-align: center;
+}
+
+.icon a {
+    color: #212529;
+}
+
+.icon a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.icon a:hover .white {
+    text-decoration: none;
+    color: #212529;
+}
+
+.icon .white {
+    color: white;
+}
+
+#footer p {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-top: 13px;
+    font-weight: bold;
+    text-align: center;
+}
