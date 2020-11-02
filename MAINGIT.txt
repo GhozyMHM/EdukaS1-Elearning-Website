@@ -1,0 +1,40 @@
+Kalau mau new repo git
+-git init
+-git add README.md
+-git commit -m "first commit"
+-git branch -M master
+-git remote add origin https://github.com/Syntetic30/Kailash-Web.git
+-git push -u origin master
+
+kalau mau push
+-git remote add origin(link) https://github.com/Syntetic30/Kailash-Web.git
+-git branch -M master
+-git push -u origin master
+
+ rem
+
+Repo A = Repository yang dijadikan patokan
+Repo B = Repository kita (hasil forking dari repo A)
+
+1. Fork repo A (di github.com)
+
+2. Clone repo B ke lokal (Git clone url_repo_B)
+
+3. Remote repo A ke lokal (Git remote add nama_remote url_repo_A)
+ repo ghazy di dalem folder clone
+4. Fetch repo A (Git fetch nama_remote_ke_repo_A)
+5. Lanjutannkalau dah diupdate
+- Git fetch nama_remote_ke_repo_A
+- Merge repo A (Git merge nama_remote/branchnya) branchnya = update
+- Push ke remote repo B (Git push -u origin master)
+
+
+Kalo udah diupdate :
+- Git add .
+- Git commit -m "ketegit rangan upgidate"
+- Git push -u origin master
+- Ke github.com, pull request
+- Create pull request
+
+Kalau dari cross git/clone di folder baru 
+-git Remote repo A ke lokal (Git remote add nama_remote url_repo_A)
